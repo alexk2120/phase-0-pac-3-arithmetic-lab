@@ -26,6 +26,17 @@ function add(x, y) {
 function decrement(x) {
     return x - 1;
 } 
-function parseInt(n){ 
-parseInt("x",Number) 
+
+function makeInt(n) {
+  parseInt("n", 10);
+  return n;
+
 }
+makeInt();
+
+function preserveDecimal(n) {
+  parseFloat(n);
+  return n;
+
+}
+preserveDecimal();
